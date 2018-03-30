@@ -1,0 +1,96 @@
+html{
+	font-size: 100%;
+	font-family: "RobotoRegular";
+}
+ul,li,a{
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+header{
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 180px;
+}
+header img{
+	height: 65px;
+	width: 234px;
+	display: block;
+}
+header nav{
+	width: 565px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header nav ul{
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+}
+header nav ul li{
+	display: inline-block;
+}
+header nav ul li a{
+	font-size: 1.125rem;
+	color: #fff;
+}
+header button{
+	font-size: 1.125rem;
+	color: #5584ff;
+	padding: 10px 30px;
+	background-color: transparent;
+	border: 1px solid #5584ff;
+	border-radius: 20px;
+}
+.bg_main{
+	color: #fff;
+	background: url("../img/bg_main.jpg") center center no-repeat;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.main_text{
+	margin-top: -350px;
+	text-align: center;
+}
+.main_text h1{
+	font-family: "RobotoThin";
+	font-size: 3.5rem;
+}
+.main_text h2{
+	color: #8492af;
+	font-size: 2rem;
+}
+.main_text button{
+	margin-top: 60px;
+	font-size: 1rem;
+	color: #fff;
+	padding: 15px 60px;
+	background-color: #5584ff;
+	border: none;
+	border-radius: 30px;
+	cursor: pointer;
+}
+.merkury_img{
+	margin-top: -400px;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+}
+.merkury_img img{
+	
+}
+
+
